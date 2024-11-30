@@ -1,2 +1,2 @@
-# chairv2.github.io
+# chairv2's silly website
 idk
