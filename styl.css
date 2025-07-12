@@ -1,1 +1,39 @@
+/*font magic*/
+.h1 {
+  font-family: Hevletica, sans-serif;
+}
 
+.p {
+  font-family: Hevletica, sans-serif;
+}
+
+.p1 {
+  font-family: Hevletica, sans-serif;
+}
+
+.a {
+  font-family: Hevletica, sans-serif;
+}
+
+
+/* topbar nav stuf */
+.topb {
+  background-color: #333333;
+  overflow: hidden;
+}
+.topb a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topb a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topb a.active {
+  background-color: ##0062ff;
+  color: white;
+}
