@@ -7,8 +7,10 @@ body {
 
 /* topbar nav stuf */
 .topb {
-  background-color: #333333;
+  position: sticky;
+  top: 0;
   overflow: hidden;
+  background-color: #333;
 }
 
 .topb a {
@@ -30,25 +32,8 @@ body {
   color: white;
 }
 
-/* Style the navbar */
-#topb {
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Navbar links */
-#topb a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-/* Page content */
+/* page content */
 .content {
   padding: 16px;
 }
+/* tutorial from w3schools.com */
