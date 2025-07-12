@@ -36,4 +36,10 @@ body {
 .content {
   padding: 16px;
 }
-/* tutorial from w3schools.com */
+/* tutorial for topbar from w3schools.com */
+
+
+/* skibbity phone viewport */
+img {
+    max-width: 100%;
+}
