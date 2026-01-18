@@ -10,23 +10,38 @@ img {
 }
   </style>
 </head>
-
-<div class="topb fglassdark">
-  <a class="active" href="index.html">Home</a></li>
-  <a href="project.html">Projects</a></li>
-  <a href="about.html">About</a></li>
-</div> 
   
 <body>
   
+<div class="topb fglassdark">
+  <div id="home">
 
-
-
-<div class="content">
- <h1 id="hi-guys1-1">hi guys1!!1</h1>
+<h1 id="hi-guys1-1">hi guys1!!1</h1>
  <p>in construction</p>
   <img src="files/images/sorrybro.jpg" alt="sorry bro">
+
 </div>
-  
+<div id="projects" style="display: none;">Nothing here rn</div>
+
+<a href="#" onclick="showSection('projects')">projects</a>
+
+<script>
+  function showSection(id) {
+
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('projects').style.display = 'block';
+
+  }
+</script>
+
+</div>
+
+
+<div id="home" class="content">
+ <h1 id="hi-guys1-1">hi guys1!!1</h1>
+ <p>in construction</p>
+  <img src="files/images/sorrybro.jpg" alt="sorry bro"><div>
+</script>
+
 </body>
 </html>
