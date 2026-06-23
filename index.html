@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stupid website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="files/favi.jpg">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="nav dfrost"> <!--mega super uber cool navbar /j--> 
+        <ul>
+            <li><a href="#home"onclick="showSection('home')">Home</a></li>
+            <li><a href="#projects"onclick="showSection('projects')">Projects</a></li>
+            <li><a href="#about"onclick="showSection('about')">About</a></li>
+        </ul>
+        <script>
+          function showSection(id) {
+      document.querySelectorAll('main section').forEach(s => s.style.display = 'none');
+      const el = document.getElementById(id);
+      if (el) el.style.display = 'block';
+      document.querySelectorAll('nav a').forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+    }
+    if (location.hash) showSection(location.hash.slice(1));
+        </script>
+    </div>
+</header>
+<main>
+    <section id="home" style="display: block;" class="dfrost">
+        <img rel="img" src="files/sorrybro.jpg" alt="sorry bro website in construction"></img>
+	    <p>sup guys</p>
+    </section>
+    <section id="projects" style="display: none;" class="dfrost">
+        <h1>Projects</h1>
+        <p>pretty sure this website is the only project yeh</p>
+    </section>
+    <section id="about" style="display: none;" class="dfrost">
+        <img rel="img" src="files/uhh.png" alt="uhhhhhh" width="100" height="100"></img>
+        <h1><strong>i think i am a skiddie blud ig</strong></h1>
+        <p>anyways this website was made for funny :P</p>
+        <p>im new to coding btw</p>
+    </section>
+</main>
+</body>
+</html>
